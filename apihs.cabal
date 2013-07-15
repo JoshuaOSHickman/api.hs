@@ -1,0 +1,9 @@
+name:              apihs
+version:           1.0
+synopsis:          A basic tool for building API servers simply.
+build-type:        Simple
+cabal-version:     >= 1.2
+
+library
+  exposed-modules: Web.Api
+  build-depends:   base >= 3 && < 5, aeson >= 0.6, containers >= 0.4, happstack-server >= 7, bytestring >= 0.9, transformers >= 0.2
